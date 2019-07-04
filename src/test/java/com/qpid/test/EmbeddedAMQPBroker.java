@@ -21,7 +21,7 @@ public class EmbeddedAMQPBroker {
         final BrokerOptions brokerOptions = new BrokerOptions();
         brokerOptions.setConfigProperty("qpid.amqp_port", String.valueOf(BROKER_PORT));
         brokerOptions.setConfigProperty("qpid.pass_file", passwordFileName);
-        brokerOptions.setConfigProperty("qpid.work_dir", "work");
+//        brokerOptions.setConfigProperty("qpid.work_dir", "work");
         brokerOptions.setInitialConfigurationLocation(configFileName);
         // start broker
         broker.startup(brokerOptions);
