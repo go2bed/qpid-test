@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Jul 04 18:39:24 CEST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-016b-bdda-d706-00000e7f22e0 
+on database directory D:\JAVA_PROJECTS\qpid-test\work\derbystore\default\default  with class loader sun.misc.Launcher$AppClassLoader@14dad5dc 
+Loaded from file:/C:/Users/Andrey/.m2/repository/org/apache/derby/derby/10.8.2.2/derby-10.8.2.2.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_51-b16
+user.dir=D:\JAVA_PROJECTS\qpid-test
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Jul 04 18:39:54 CEST 2019:
+Shutting down instance a816c00e-016b-bdda-d706-00000e7f22e0 on database directory D:\JAVA_PROJECTS\qpid-test\work\derbystore\default\default with class loader sun.misc.Launcher$AppClassLoader@14dad5dc 

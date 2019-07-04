@@ -1,0 +1,27 @@
+{
+  "authenticationproviders" : [ {
+    "id" : "7d59e2f5-a8a4-49fc-a966-2b127757e16c",
+    "name" : "passwordFile",
+    "path" : "passwd.properties",
+    "type" : "PlainPasswordFile"
+  } ],
+  "defaultVirtualHost" : "default",
+  "id" : "afd84301-6db9-449f-bc85-cd76d246d4c1",
+  "modelVersion" : "1.3",
+  "name" : "EmbeddedBroker",
+  "ports" : [ {
+    "authenticationProvider" : "passwordFile",
+    "id" : "f0e59b77-4fc6-4707-9209-726f22afc377",
+    "name" : "AMQP",
+    "port" : "1516"
+  } ],
+  "storeVersion" : 1,
+  "virtualhosts" : [ {
+    "createdTime" : 1562258363815,
+    "id" : "68dd54c4-9704-4744-af27-04bc307d9b3e",
+    "name" : "default",
+    "storePath" : "work/derbystore/default",
+    "storeType" : "DERBY",
+    "type" : "STANDARD"
+  } ]
+}
